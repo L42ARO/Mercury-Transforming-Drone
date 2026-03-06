@@ -23,6 +23,7 @@
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mercuriustech)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/MercuriusTech)
+[![Follow on X](https://img.shields.io/badge/Follow%20%40L42ARO-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/L42ARO)
 
 
 ## Quick Index
