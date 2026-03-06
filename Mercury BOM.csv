@@ -1,0 +1,28 @@
+Hardware,Link,Units
+"120N Linear Actuator 1.2""",https://a.co/d/f1gvmVA,2
+8 inch propellers,https://a.co/d/bCJhVNM,4
+BLDC Motor (A2812 2812 900KV),https://a.co/d/0YZLBnR,4
+Raspberry Pi 5,https://a.co/d/0e89eMiw,1
+Mobile Data Dongle,https://a.co/d/clkxkL8,1
+Lipo Battery (3S 2200mah),https://a.co/d/04b29lgE,2
+Screws (3mm x 10mm),ACE Hardware,10
+Screws (3mm x 30 mm),ACE Hardware,20
+Screws (3mm x 50 mm),ACE Hardware,10
+CF  30 cm x 30 cm (for frame),https://a.co/d/0dzbtn5p,2
+8 awg cable,https://www.amazon.com/dp/B07B8N6751?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_1,1
+T Plug Pairs,https://www.amazon.com/dp/B01C8NWJ78?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0,2
+XT60 Male & Female,https://www.amazon.com/dp/B0CMM1BBDQ?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0,1
+IMU (MPU 9250),https://www.amazon.com/dp/B01I1J0Z7Y?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_1,2
+TOF Camera,https://www.amazon.com/dp/B0BRB12W7Y?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0,1
+ESP32S3,https://a.co/d/0fMawJYb,1
+USB Webcam,https://www.amazon.com/640x480-Building-Arduino-Raspberry-Robotic/dp/B0CT35HQJ5/ref=sr_1_3?crid=1QJ8RK7U8VKNT&dib=eyJ2IjoiMSJ9.66s88j2_grmFEw0fNfKI2v3d7B-PMXzMkgaX9qUinZnxrqKUucnmuesVa0GyeSst_X6PuXbYMVzHrZvdjHmznxKGTDT2V1fF-VrbklSqERBwjnTnaKBwWnxqpfEubXGVVsnnOS1fkBU6UQYdRD2y6LEiCBgxwfjYWeLgjYZMY1hf51N7UuQRCuFxe4zMclfKLxsIZCTuc8HBa4tMIBqjw3c8qOM5SUcADybyln3_Vag.SYqQA0_dfK-JxM0PnQdMPqXAihry-F3Zp72aLhLSe_s&dib_tag=se&keywords=webcam%2Bdiy&qid=1758536420&sprefix=webcam%2Caps%2C437&sr=8-3&th=1,1
+Buck Converter,https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMDA1ODQzNjQ5MDcwMTA1OjE3NTg1MzY2ODU6c3BfYXRmOjMwMDM5ODk2MDk4NzQwMjo6MDo6&url=%2FSeloky-Converter-Adjustable-Electronic-Stabilizer%2Fdp%2FB0DBVYP91F%2Fref%3Dsr_1_1_sspa%3Fcrid%3DUM4K2PO4WR9A%26dib%3DeyJ2IjoiMSJ9.TXxwhXnWHHA9-07eTYmM2Ur6QKDyny76v89qXv_wVkvHeoh85Ld3c13DRtUydX3Nxl66EFRSafWk7ooU8oRIl2R1u5JPP9ssZbqzbG08ryLaNNI1iltPF7q9S3d17ltaRimpHl9JVMTwN4f0kMWlyiaTdtqQEFA1bAX4zUxr82fcTaeq0Ka_81YO0g-fMCSwV-zkDq17pK3Fa3CeYbab0XUd-Aa6s7VfnU05p18M0BE.rl8CCtSRDAKypJtHxeai_UQuObt_Z8zk_LvOeu9oBow%26dib_tag%3Dse%26keywords%3Dbuck%2Bconverter%26qid%3D1758536685%26sprefix%3Dbuck%2Bconver%252Caps%252C784%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1,3
+Radiolink R8XM,https://www.amazon.com/dp/B0BCPDLWXZ?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0,1
+DRV8871 H Bridge,https://a.co/d/iBVBORv,2
+Cube + Flight Controller,https://a.co/d/19FUWXO,1
+SEQURE 4in1 ESC 70A,https://a.co/d/5X12oWn,1
+Custom PCBS,EasyEDA,3
+BLDC Motor 140kv (for driving),https://a.co/d/iKZayiN,2
+Optical Flow MTF-01,https://www.ewingaerospace.com/products/ewing-aerospace-h7-flight-controller-ndaa-compliant-and-blueuas?variant=43614880235629#ae25b710efd3879edefdaa1ee38410ce,1
+Thermal Camera,https://a.co/d/dZ3TK0W,1
+Bidirectional ESC 50A (for driving),https://a.co/d/00C138fG,2

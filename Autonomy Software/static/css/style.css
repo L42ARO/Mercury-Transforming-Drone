@@ -1,0 +1,303 @@
+/* Rectangle outline for all text except red */
+.outlined-text {
+  border: 2px solid var(--yellow);
+  border-radius: 7px;
+  padding: 2px 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap; /* keep text on one line */
+  width: auto; /* shrink to fit content */
+  max-width: none;
+  margin-right: 8px; /* small gap between outlined items */
+}
+/* Main layout grid for sidebar + dashboard */
+.main-layout {
+  display: flex;
+  main.grid {
+    margin-left: 0;
+    width: 100vw;
+  min-width: 0;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #000000;
+  --panel: rgba(24, 24, 24, 0.80);
+  --border: #ffe066;
+  --accent: #e53935;
+  --accent2: #18151c;
+  --yellow: #ffe066;
+  --radius: 12px;
+  --main-font: 'Montserrat', 'DIN', 'Roboto', Arial, sans-serif;
+  font-family: var(--main-font);
+  background: #000 !important;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: var(--panel-bg);
+  border-radius: 16px;
+  padding: 2rem;
+  min-width: 350px;
+  min-height: 300px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50vw;
+  height: 50vh;
+  max-width: 700px;
+  max-height: 80vh;
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  background: var(--accent);
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  margin-right: 10px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255,255,255,0.05);
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* Center header title and status pills */
+.topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+}
+.topbar > div:first-child {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.topbar .status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.green { background: #18b27f; }
+.red { background: #ff5d5d; }
+.orange { background: #f0b429; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  gap: 12px;
+  padding: 12px;
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.panel {
+  background: var(--panel);
+  border: 2px solid var(--yellow);
+  border-radius: var(--radius);
+  padding: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  /* Prevent 3D model from shrinking */
+  align-items: stretch;
+  position: relative;
+  z-index: 2; /* panels above animated logos */
+}
+
+#cube3d {
+  min-height: 150px !important;
+  flex-shrink: 0 !important;
+  max-height: 200px !important;
+}
+
+.panel h2 {
+  font-size: 16px;
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+}
+
+.command-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+
+.logo-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* logos live behind panels */
+  pointer-events: none;
+}
+
+.floating-logo {
+  will-change: transform;
+  transform-origin: center;
+  z-index: 0;
+  opacity: 0.95;
+  mix-blend-mode: screen;
+}
+
+/* CSS animations for floating logos - GPU accelerated */
+@keyframes floatY {
+  from { transform: translate3d(0, -6px, 0) rotate(0deg); }
+  to   { transform: translate3d(0, 6px, 0) rotate(360deg); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* center logo sits in the same plane as panels */
+.center-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; /* above logos, at same plane as panels */
+  pointer-events: none;
+}
+.center-logo img { display:block; border-radius:50%; }
+
+/* mask to hide panel border segments behind the center logo */
+.center-logo .border-hole {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: var(--panel); /* cover the panel borders */
+  z-index: 2.5; /* just above panel borders but below logo */
+}
+.btn, .panel, .modal-content, .footer, .telemetry-table, .command-panel, .mission-panel, .camera-panel, .mode-btn, .mission-btn, .mission-list, .waypoint-list, .modal-title, .modal-map, .modal-footer {
+  font-family: var(--main-font);
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px #e5393522;
+}
+
+.btn:hover { opacity: 0.62; transform: translateY(-2px) scale(1.04); }
+
+.green { background: #e53935; color: #fff; }
+.red { background: #b71c1c; color: #fff; }
+.yellow { background: #333; color: #fff; }
+.blue { background: #333; color: #fff; }
+
+.log {
+  background: rgba(0,0,0,0.3);
+  border-radius: var(--radius);
+  padding: 8px;
+  font-family: monospace;
+  height: 100px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+
+/* Ground Control Styles */
+.ground-controls {
+  padding: 15px;
+}
+
+.ground-controls .btn {
+  user-select: none;
+  transition: all 0.1s ease;
+  border: 2px solid transparent;
+}
+
+.ground-controls .btn:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.ground-controls .btn:hover {
+  border-color: var(--yellow);
+}
+
+.ground-controls input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #333;
+  border-radius: 3px;
+  outline: none;
+}
+
+.ground-controls input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--yellow);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ground-controls input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--yellow);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+#emergency-stop:hover {
+  background: #ff1744 !important;
+  transform: scale(1.05);
+}

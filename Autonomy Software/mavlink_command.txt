@@ -1,0 +1,6 @@
+source .venv/bin/activate
+mavproxy.py --master=/dev/ttyAMA0 --baudrate 115200 --out=udp:127.0.0.1:14550
+
+
+
+mavproxy.py --master=/dev/ttyAMA0 --baudrate 115200 --out=udp:127.0.0.1:14550 --out=udp:192.168.1.105:14600
