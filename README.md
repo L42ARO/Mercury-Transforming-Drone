@@ -98,7 +98,7 @@
 
 ![Mercury CAD](Media/CAD.png)
 
-The STL files are available to download in the [STL Files](STL%20Files) folder.[JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for full access to the full CAD project files and step by step building support.
+The STL files are available to download in the [STL Files](STL%20Files) folder. [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for access to the full customizable CAD project files and step by step building support.
 
 | Name | Qty | Material | Density |
 |------|-----|----------|---------|
