@@ -19,7 +19,7 @@
 
 ![Mercury Banner](Media/Banner.png)
 
-*If you like this project, we appreciate your support, additionally get access to the full customizable CAD project on Pateron*
+*If you like this project, we appreciate your support*
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mercuriustech)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/MercuriusTech)
