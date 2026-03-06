@@ -49,11 +49,11 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center"><b>Wheel + Prop Guard</b></td>
-    <td width="50%"></td>
+    <td width="50%" align="center"><b>Mobile App</b></td>
   </tr>
   <tr>
     <td width="50%" align="center"><img src="Media/WheelProp.png" alt="Wheel + Prop Guard" width="100%"/></td>
-    <td width="50%"></td>
+    <td width="50%" align="center"><img src="Media/MobileApp.png" alt="Mobile App" width="100%"/></td>
   </tr>
 </table>
 
@@ -98,7 +98,7 @@
 
 ![Mercury CAD](Media/CAD.png)
 
-The STL files are available to download in the [STL Files](STL%20Files) folder. For full access to the full CAD project [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech)
+The STL files are available to download in the [STL Files](STL%20Files) folder.[JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for full access to the full CAD project files and step by step building support.
 
 | Name | Qty | Material | Density |
 |------|-----|----------|---------|
@@ -177,6 +177,8 @@ For more convenience you can setup these scripts to run automatically on startup
     </td>
   </tr>
 </table>
+
+*Join our Pateron for full access to the CAD project files and step by step building support*
 
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mercuriustech)
