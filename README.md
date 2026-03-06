@@ -16,10 +16,46 @@
 
 ## Quick Index
 
+- [Features](#features)
 - [Folder Structure](#folder-structure)
 - [Bill of Materials](#bill-of-materials)
 - [CAD Files](#cad-files)
 - [Software Setup](#software-setup)
+
+## Features
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center"><b>Inner Payload Bay (1 kg)</b></td>
+    <td width="50%" align="center"><b>Simple Transformation Mechanism</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="Media/InnerPayload 2.png" alt="Inner Payload Bay" width="100%"/></td>
+    <td width="50%" align="center"><img src="Media/LinearActuators.png" alt="Simple Transformation Mechanism" width="100%"/></td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center"><b>RGB + Depth + Thermal Cameras</b></td>
+    <td width="50%" align="center"><b>Ardupilot + GPS</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="Media/Sensors.jpg" alt="RGB + Depth + Thermal Cameras" width="100%"/></td>
+    <td width="50%" align="center"><img src="Media/TopDownDrone.png" alt="Ardupilot + GPS" width="100%"/></td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center"><b>Wheel + Prop Guard</b></td>
+    <td width="50%"></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="Media/WheelProp.png" alt="Wheel + Prop Guard" width="100%"/></td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
 ## Folder Structure
 - **STL Files:** all the required stl files for the drone assembly
