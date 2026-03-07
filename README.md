@@ -17,11 +17,16 @@
 
 ## Quick Index
 
+- [Demo](#demo)
 - [Features](#features)
 - [Folder Structure](#folder-structure)
 - [Bill of Materials](#bill-of-materials)
 - [CAD Files](#cad-files)
 - [Software Setup](#software-setup)
+
+## Demo
+
+[![Mercury Demo](https://img.youtube.com/vi/DZhdSxqXiKo/maxresdefault.jpg)](https://youtu.be/DZhdSxqXiKo)
 
 ## Features
 
