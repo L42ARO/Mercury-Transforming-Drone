@@ -99,7 +99,7 @@
 
 ![Mercury CAD](Media/CAD.png)
 
-The STL files are available to download in the [STL Files](STL%20Files) folder. [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for access to the full customizable CAD project files and step by step building support.
+The STL files are available to download in the [STL Files](STL%20Files) folder. [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for access to the full customizable CAD project files.as well as more exportable formats.
 
 | Name | Qty | Material | Density |
 |------|-----|----------|---------|
@@ -179,9 +179,12 @@ For more convenience you can setup these scripts to run automatically on startup
   </tr>
 </table>
 
-*Join our Pateron for full access to the CAD project files and step by step building support*
+*Join our Pateron for full access to the customizable CAD project as well as more exportable formats*
 
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mercuriustech)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/MercuriusTech)
 
+*If you have any questions or need support, feel free to join our Discord server*
+
+[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZudrWv6E)
