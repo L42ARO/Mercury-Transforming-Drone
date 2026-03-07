@@ -104,7 +104,7 @@
 
 ![Mercury CAD](Media/CAD.png)
 
-The STL files are available to download in the [STL Files](STL%20Files) folder. [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for access to the full customizable CAD project files.as well as more exportable formats.
+The STL files are available to download in the [STL Files](STL%20Files) folder. If STL files aren't good enough feel free to [JOIN OUR PATERON](https://www.patreon.com/c/MercuriusTech) for access to the full CAD project as well as SLDPRT and STEP files.
 
 | Name | Qty | Material | Density |
 |------|-----|----------|---------|
@@ -184,7 +184,7 @@ For more convenience you can setup these scripts to run automatically on startup
   </tr>
 </table>
 
-*Join our Pateron for full access to the customizable CAD project as well as more exportable formats*
+*Join our Pateron for full access to the CAD project as well as .SLDPRT & .STEP formats*
 
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mercuriustech)
